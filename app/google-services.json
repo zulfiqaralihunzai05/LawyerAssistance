@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1081913221943",
+    "firebase_url": "https://lawyer-assistance-app-fyp.firebaseio.com",
+    "project_id": "lawyer-assistance-app-fyp",
+    "storage_bucket": "lawyer-assistance-app-fyp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081913221943:android:d344cb437b5eb1f95070b2",
+        "android_client_info": {
+          "package_name": "com.example.lawyerassistance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081913221943-m26362f4jv8qefjlt52ni1i3mviolo5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpGeFay9VU5jf5RAEAHefODr3B1yhe5YM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081913221943-m26362f4jv8qefjlt52ni1i3mviolo5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

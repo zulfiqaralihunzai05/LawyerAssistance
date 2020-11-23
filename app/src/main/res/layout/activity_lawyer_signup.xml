@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@color/white"
+    tools:context=".Lawyer_signup">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textColorHint="#CC7F0C"
+                >
+
+                <EditText
+                    android:id="@+id/lawyer_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/law_full_name"
+                    android:textSize="18sp"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:background="#F7FDFB"
+                    android:importantForAutofill="no" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textColorHint="#CC7F0C"
+                >
+
+                <EditText
+                    android:id="@+id/lawyer_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/law_email"
+                    android:textSize="18sp"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/black"
+                    android:background="#F7FDFB"
+                    android:importantForAutofill="no" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textColorHint="#CC7F0C"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="#CC7F0C"
+                >
+
+                <EditText
+                    android:id="@+id/lawyer_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/law_password"
+                    android:textSize="18sp"
+                    android:inputType="textPassword"
+                    android:background="#F7FDFB"
+                    android:importantForAutofill="no"
+                    android:textColor="@color/black"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textColorHint="#CC7F0C"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="#CC7F0C"
+                >
+
+                <EditText
+                    android:id="@+id/lawyer_cnf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/law_confirm_password"
+                    android:textSize="18sp"
+                    android:inputType="textPassword"
+                    android:importantForAutofill="no"
+                    android:background="#F7FDFB"
+                    android:textColor="@color/black"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textColorHint="#CC7F0C"
+                >
+
+                <EditText
+                    android:id="@+id/law_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/law_phone_no"
+                    android:textSize="18sp"
+                    android:inputType="number"
+                    android:importantForAutofill="no"
+                    android:textColor="@color/black"
+                    android:background="#F7FDFB"
+                    tools:ignore="TextFields" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textColorHint="#CC7F0C"
+                >
+
+                <EditText
+                    android:id="@+id/law_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/law_city"
+                    android:background="#F7FDFB"
+                    android:textSize="18sp"
+                    android:inputType="text"
+                    android:importantForAutofill="no"
+                    android:textColor="@color/black"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <RadioGroup
+                android:id="@+id/rdg_lawyer_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_lawyer_category"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+
+                <RadioButton
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/rdb_cat1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/rdb_advocate_high_court"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/rdb_cat2"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="@string/rdb_advocate_supreme_court"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </RadioGroup>
+
+
+            <Button
+                android:id="@+id/btn_lawyer_reg"
+                android:layout_width="285dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/black"
+                android:text="@string/lawyer_register" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

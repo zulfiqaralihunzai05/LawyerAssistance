@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">LawyerAssistance</string>
+
+    //splash screen
+    <string name="splash_pic">splash</string>
+
+    //User choice screen
+    <string name="welcome">Welcome!</string>
+    <string name="intro">Are you Lawyer or Client So please select one of the following option</string>
+    <string name="app_intro">Lawyer Assistance App is for Lawyer and Client interaction.This is a bridge between Lawyer and Client. This app is for solving legal issues and cases.</string>
+
+    //Login screen
+    <string name="login_pic">Login_pic</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_lgnreg">Register</string>
+
+    //Client signup screen
+    <string name="cl_email">Email</string>
+    <string name="cl_full_name">Full Name</string>
+    <string name="cl_password">Password</string>
+    <string name="cl_confirm_password">Confirm Password</string>
+    <string name="cl_phone_no">Phone no</string>
+    <string name="cl_city">City</string>
+    <string name="cl_btn_register">Register</string>
+
+    //Lawyer signup screen
+    <string name="radiobutton_lawyer">Lawyer</string>
+    <string name="radiobutton_client">Client</string>
+    <string name="lawyer_register">Register</string>
+    <string name="law_city">City</string>
+    <string name="law_phone_no">Phone no</string>
+    <string name="law_confirm_password">Confirm Password</string>
+    <string name="law_password">Password</string>
+    <string name="law_email">Email</string>
+    <string name="law_full_name">Full Name</string>
+    <string name="rdb_advocate_high_court">Advocate High Court</string>
+    <string name="rdb_advocate_supreme_court">Advocate Supreme Court</string>
+    <string name="txt_lawyer_category">Lawyer Category:</string>
+
+    //Dashboard Screen
+    <string name="profile_icon">Profile</string>
+    <string name="lawyer_icon">Lawyer</string>
+    <string name="laws_icon">Laws</string>
+    <string name="case_study">Case Study</string>
+    <string name="recommendation">Lawyer Recommend</string>
+    <string name="txt_profile">Profile</string>
+    <string name="txt_lawyers">Lawyers</string>
+    <string name="txt_laws">Laws</string>
+    <string name="txt_case_study">Case Study</string>
+    <string name="txt_lawyer_recommend">Lawyer Recommend</string>
+    <string name="Content_recommend">recommend</string>
+    <string name="Content_laws_pic">laws_pic</string>
+    <string name="Content_casestudy_pic">caseStudy_pic</string>
+    <string name="Content_profile_pic">profile_pic</string>
+    <string name="Content_lawyer_pic">lawyer_pic</string>
+    <string name="content_login_pic">login_pic</string>
+
+
+</resources>
